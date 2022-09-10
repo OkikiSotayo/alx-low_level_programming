@@ -24,6 +24,7 @@ int main(void)
 				putchar((c % 10) + 48);
 				putchar(' ');
 				putchar((c1 / 10) + 48);
+				putchar((c1 % 10) + 48);
 
 				if (c != 98 || c1 != 98)
 				{
