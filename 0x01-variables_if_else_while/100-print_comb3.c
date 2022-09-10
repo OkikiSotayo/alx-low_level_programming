@@ -12,19 +12,32 @@
 
 int main(void)
 {
-	int c;
+	int c = 0, c2;
 
-	for (c = 0; c < 100; c++)
+	while (c <= 9)
 	{
-		putchar ((c / 10) + '0');
-		putchar ((c % 10) + '0');
-
-		if (c != 90)
+		c2 = 0;
+		while (c2 <= 9)
 		{
-			putchar(',');
-			putchar(' ');
+
+		if (c != c2 && c < c2)
+		{
+			putchar(c + 48);
+			putchar(c2 + 48);
+
+			if (c + c2 != 17)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
+		++c2;
 	}
+	++c;
+
+	}
+
 	putchar('\n');
 	return (0);
+
 }
