@@ -35,12 +35,12 @@ int main(void)
 					}
 
 				}
-				++c2
+				++c2;
 			}
-			++c1
+			++c1;
 
 		}
-		c++
+		c++;
 	}
 	putchar('\n');
 	return (0);
