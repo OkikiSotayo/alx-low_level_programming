@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer - func that prints every minute of the day Jack Bauer, starting from 00:00 to 23:59.
+ * jack_bauer - func that prints minute of the day, starting 00:00 to 23:59.
  * Return: 0
  */
 
