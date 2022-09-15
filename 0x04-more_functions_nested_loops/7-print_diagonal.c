@@ -4,7 +4,6 @@
 /**
  * print_diagonal - printing line
  * @n: parameters
- * Return: returns nothing
  */
 
 void print_diagonal(int n)
