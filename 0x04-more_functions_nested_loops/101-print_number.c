@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * print_number - prints a number
+ * print_number - Prints a number
  * @n: The number to print
  */
 
-void print_nymber(int n)
+void print_number(int n)
 {
 	unsigned int num = n;
 
