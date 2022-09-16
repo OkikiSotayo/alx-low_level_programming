@@ -1,14 +1,13 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /*
- * fizz_buzz - program that prints either number
- * or fizz or Buzz or FizzBuzz
- *
- * Return: returns 0
+ * main - program that prints either number or fizz or Buzz or FizzBuzz
+ * Description - print
+ * Return: returns nothing
  */
 
-void fizz_buzz(void)
+int main(void)
 {
 	int num = 1;
 
@@ -16,17 +15,17 @@ void fizz_buzz(void)
 	{
 		if ((num % 3 == 0) && (num % 5 == 0))
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		}
 		else if ((num % 3) == 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
 		}
 		else if ((num % 5) == 0)
 		{
 			if (num != 100)
 			{
-				printf("Buzz ");
+				printf("Buzz");
 			}
 			else
 			{
@@ -35,10 +34,10 @@ void fizz_buzz(void)
 		}
 		else
 		{
-			printf("%d ", num);
+			printf("%d", num);
 		}
 	}
 	printf("\n");
-
 	return (0);
+
 }
