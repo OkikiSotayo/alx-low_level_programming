@@ -2,13 +2,13 @@
 #include "main.h"
 
 /*
- * main - program that prints either number
+ * fizz_buzz - program that prints either number
  * or fizz or Buzz or FizzBuzz
  *
  * Return: returns 0
  */
 
-int main(void)
+void fizz_buzz(void)
 {
 	int num = 1;
 
