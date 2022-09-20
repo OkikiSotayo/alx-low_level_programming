@@ -11,25 +11,25 @@
 int _atoi(char *s)
 {
 	int index, ind2;
-	unsigned int res;
+	unsigned int vex;
 	int sign = 1;
 	char mat;
 
 	index = 0;
-	res = 0;
+	vex = 0;
 	while (*(s + index) != '\0')
 	{
-		now = *(s + index);
-		if (now == '-')
+		mat = *(s + index);
+		if (mat == '-')
 		{
 			sign *= -1;
 		}
-				if (now >= '0' && now <= '9')
+				if (mat >= '0' && mat <= '9')
 				{
 					ind2 = index;
 					while (*(s + ind2) > 47 && *(s = ind2) < 58)
 					{
-						res = (res * 10) + *(s + ind2) - '0';
+						vex = (vex * 10) + *(s + ind2) - '0';
 						ind2++;
 					}
 					break
@@ -37,6 +37,6 @@ int _atoi(char *s)
 				index++;
 	}
 	if (sign < 0)
-		res *= sign;
-	return (res);
+		vex *= sign;
+	return (vex);
 }
