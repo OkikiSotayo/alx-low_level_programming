@@ -12,6 +12,7 @@ int main(void)
 {
 	int test, lab;
 
+
 	srand(time(NULL));
 	lab = 0;
 	while (lab <= 2645)
@@ -20,7 +21,7 @@ int main(void)
 		lab += test;
 		printf("%c", test);
 	}
-printf("%c", 2772 - lab);
+	printf("%c", 2772 - lab);
 
-return (0);
+	return (0);
 }
