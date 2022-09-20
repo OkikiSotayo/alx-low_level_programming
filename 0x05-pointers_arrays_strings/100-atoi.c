@@ -27,12 +27,12 @@ int _atoi(char *s)
 				if (mat >= '0' && mat <= '9')
 				{
 					ind2 = index;
-					while (*(s + ind2) > 47 && *(s = ind2) < 58)
+					while (*(s + ind2) > 47 && *(s + ind2) < 58)
 					{
 						vex = (vex * 10) + *(s + ind2) - '0';
 						ind2++;
 					}
-					break
+					break;
 				}
 				index++;
 	}
