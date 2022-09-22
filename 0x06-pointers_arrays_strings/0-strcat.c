@@ -5,7 +5,7 @@
  * @dest: pointer to destination
  * @src: pointer to source
  *
- * Return:pointer to destination
+ * Return: pointer to destination
  */
 
 char *_strcat(char *dest, char *src)
@@ -21,6 +21,6 @@ char *_strcat(char *dest, char *src)
 	{
 		dest[length] = src[i];
 	}
-	dest[length] = '\0';
+		dest[length] = '\0';
 	return (dest);
 }
