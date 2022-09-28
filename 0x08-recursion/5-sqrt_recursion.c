@@ -23,6 +23,14 @@ int helperFunction(int num, int pSqrt)
 	}
 }
 
+/**
+ * _sqrt_recursion - returns the root of a number
+ * @n: number to find square root
+ *
+ * Return: square root of n
+ * -1 if n has no sqrt
+ */
+
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
