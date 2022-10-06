@@ -32,7 +32,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	lroot = ls1 + n;
 
-	root = malloc(lsout + 1);
+	root = malloc(lroot + 1);
 
 	if (root == NULL)
 		return (NULL);
@@ -45,5 +45,5 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	root[i] = '\0';
 
-	return (sout);
+	return (root;
 }
