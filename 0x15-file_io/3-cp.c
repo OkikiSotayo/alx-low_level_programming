@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 
 /**
  * error_file - program that copies the content o
@@ -25,7 +25,7 @@ void error_file(int file_from, int file_to, char *argv[])
 }
 
 /**
- * main - progrom to check code for ALX SE student
+ * main - another progrom to check code
  * @argc: number of arguments
  * @argv: arguments vector
  *
@@ -34,7 +34,8 @@ void error_file(int file_from, int file_to, char *argv[])
 
 int main(int argc, char *argv[])
 {
-	int file_from, int file_to, int err_close;
+	int file_from;
+	int file_to, int err_close;
 	ssize_t nchars, nwr;
 	char buf[1024];
 
