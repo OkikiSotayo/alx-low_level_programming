@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * error_file - programi that copies the content o
- * a file to another file
+ * error_file - programi that copies the content
  * @file_from: file_from
  * @file_to: file_to
  * @argv: arguments vector
