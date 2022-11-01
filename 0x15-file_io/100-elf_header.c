@@ -266,7 +266,8 @@ void close_elf(int elf)
 	}
 }
 
-/**main - Displays the information contained in Elf file
+/**
+ * main - Displays the information contained in Elf file
  * @argc: The number of arguments supplied to the program
  * @argv: An array of pointers to the arguments
  *
