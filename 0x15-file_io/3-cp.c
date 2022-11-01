@@ -7,7 +7,7 @@ i#include "main.h"
  * @file_to: file_to
  * @argv: arguments vector
  *
- * Return: void
+ * Return: no return
  */
 
 void error_file(int file_from, int file_to, char *argv[])
