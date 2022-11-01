@@ -25,7 +25,7 @@ void error_file(int file_from, int file_to, char *argv[])
 }
 
 /**
- * main - another progrom to check code
+ * main - progrom to check code for ALX SE student
  * @argc: number of arguments
  * @argv: arguments vector
  *
