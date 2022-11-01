@@ -29,13 +29,12 @@ void error_file(int file_from, int file_to, char *argv[])
  * @argc: number of arguments
  * @argv: arguments vector
  *
- * Return: 0 always
+ * Return:Always 0
  */
 
 int main(int argc, char *argv[])
 {
-	int file_from;
-	int file_to, int err_close;
+	int file_from, int file_to, int err_close;
 	ssize_t nchars, nwr;
 	char buf[1024];
 
