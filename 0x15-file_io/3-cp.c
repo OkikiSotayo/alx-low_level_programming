@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * error_file - program that copies the content o
+ * error_file - programi that copies the content o
  * a file to another file
  * @file_from: file_from
  * @file_to: file_to
@@ -34,8 +34,7 @@ void error_file(int file_from, int file_to, char *argv[])
 
 int main(int argc, char *argv[])
 {
-	int file_from;
-	int file_to, int err_close;
+	int file_from, int file_to, int err_close;
 	ssize_t nchars, nwr;
 	char buf[1024];
 
