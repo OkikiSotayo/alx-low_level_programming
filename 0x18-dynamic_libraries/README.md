@@ -1,1 +1,1 @@
-project task on C - Dynamic libraries
+project task on Dynamic libraries
